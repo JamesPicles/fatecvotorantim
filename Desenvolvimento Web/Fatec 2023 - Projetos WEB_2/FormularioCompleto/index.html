@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Fatec</title>
+</head>
+<body>
+    <h2> Roupas XIQUE XIQUE</h2>
+    <h3>Cadastro</h3>
+    <form>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome"
+            name="nomeCliente"
+            maxlength="30"
+            minlength="10"
+            size="30"
+            required>
+
+            <label for="senha">Senha</label>
+            <input type="password" id="senha"
+            name="password"
+            maxlength="12"
+            minlength="6"
+            placeholder="senha com letras e números">
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados de Cobrança</legend>
+            <label for="cidade">Cidade</label>
+            <input type="text" id="cidade"
+            value="Votorantim"
+            name="cidade"
+            disabled>
+            
+            <label for="uf">UF</label> 
+            <select name="uf" id="uf"> <!--esta função 'select' permite a criação de uma lista contendo um grupo pré-definido de variáveis-->
+                <optgroup label="Região Norte"> <!--esta função cria subgrupos na lista-->
+                    <option value="Amazonas">AM</option> <!--option são as variáveis da lista-->
+                    <option value="Acre">AC</option>
+                </optgroup>
+
+                <optgroup label="Região Sul">
+                    <option value="">SC</option>
+                    <option value="">RS</option>
+                </optgroup>
+            </select>
+            
+            <input type="checkbox" name="Express" id="envio" checked>
+            <label for="envio">Express ?</label> 
+            
+            <input value="Solteiro" type="radio" name="EC" id="EC">
+            <label>Solteiro(a)</label>
+
+            <input value="casado" type="radio" name="EC" id="EC">
+            <label>Casado(a)</label>
+
+            <input value="viuvo" type="radio" name="EC" id="EC">
+            <label>Viuvo(a)</label>
+
+            <label>Cor Preferida</label>
+            <input type="color" name="" id="">
+
+            <label for="nota">Grau de satisfação com a compra</label>
+            <input type="range" name="nota" id="nota"
+            minlength="1"
+            maxlength="10"
+            step="2">
+        </fieldset>
+
+        <button> Cadastrar </button>
+        <input type="submit" value="Cadastrar">
+
+
+    </form>
+
+
+</body>
+</html>
