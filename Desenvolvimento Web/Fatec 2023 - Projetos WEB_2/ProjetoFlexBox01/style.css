@@ -1,0 +1,19 @@
+h2{
+    color: blue;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+section{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
