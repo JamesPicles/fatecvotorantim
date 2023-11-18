@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidades De Medida</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <div class="container">
+          <h1>Unidades de Medida CSS</h1>
+          
+
+          <!-- PX -->
+          <div class="exemplo">
+            <h2>PX (Tamanho baseado em pixels)</h2>
+            <button class="botao">enviar</button>
+            <p>O tamanho é definido em pixels, uma unidade fixa de medida absoluta.</p>
+          </div>
+
+          <!-- EM -->
+          <div class="exemplo">
+            <h2>EM (Tamanho baseado no tamanho da fonte do texto pai)</h2>
+            <ul>
+              <li>aaa</li>
+              <li>aaa</li>
+              <li>aaa</li>
+            </ul>
+            <p>O tamanho é definido em EM, uma unidade fixa de medida relativa.</p>
+          </div>
+          
+          
+          
+          <!-- PT -->
+          <div class="exemplo">
+            <h2>PT (Tamanho fixo em pontos)</h2>
+            <div class="color-box2" style="font-size: 50pt; background-color: lightpink;"></div>
+            <p>O tamanho é definido em pontos, uma unidade de impressão.</p>
+            <p>(1pt = 1/72 de 1in)</p>
+          </div>
+          
+          <!-- CM -->
+          <div class="exemplo">
+            <h2>CM (Centímetros)</h2>
+            <div class="color-box" style="width: 5cm; height: 5cm; background-color: lightyellow;"></div>
+            <p class="measurement-info">Tamanho: 5cm x 5cm</p>
+            <p>O tamanho é definido em centímetros, uma unidade física.</p>
+            <p>1cm equivale a 37,8px</p>
+          </div>
+          
+          <!-- IN -->
+          <div class="exemplo">
+            <h2>IN (Polegadas)</h2>
+            <div class="color-box" style="width: 2in; height: 2in; background-color: lightcoral;"></div>
+            <p class="measurement-info">Tamanho: 2in x 2in</p>
+            <p>O tamanho é definido em polegadas, outra unidade física.</p>
+            <p>1in equivale a 2,54cm e respectivamente a 96px</p>
+          </div>
+          
+          <!-- REM -->
+          <div class="exemplo">
+            <h2>REM ('Root em', tamanho da fonte fixada a um elemento-raiz, geralmente na própria tag html)</h2>
+            <div class="color-box" style="font-size: 1.5rem; background-color: lightblue;"></div>
+            <p class="measurement-info">Tamanho: 1.5rem</p>
+            <p>Browsers usam como padrão 1rem = 16px; útil para espaçamentos consistentes de elementos e divs aninhadas.</p>
+          </div>
+          
+          <!-- VW -->
+          <div class="exemplo">
+            <h2>Viewport - é a área visível do site no navegador aberto, variando conforme dispositivo.</h2>
+            <h2>VW (Viewport Width) - Utilizado nos casos em que o elemento deve se relacionar com a largura da janela de visualização .</h2>
+            <div class="color-box" style="width: 50vw; background-color: lightpink;"></div>
+            <p class="measurement-info">Tamanho: 50vw</p>
+            <p>1vw = 1% da largura da área visível. 100vw elemento preencherá toda a largura da janela.</p>
+          </div>
+
+          <!-- VH -->
+          <div class="exemplo">
+            <h2>VH (Viewport Height)</h2>
+            <div class="color-box" style="height: 50vh; background-color: lightgreen;"></div>
+            <p class="measurement-info">Tamanho: 50vh</p>
+            <p>Semelhante ao VW, porém o tamanho do elemento é definido em relação à altura da janela de visualização.</p>
+          </div>
+          
+        </div>
+    </body>
+</html>
