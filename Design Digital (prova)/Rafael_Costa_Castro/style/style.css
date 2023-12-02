@@ -1,0 +1,16 @@
+main{
+    background-color: rgb(252, 238, 220);
+    font-family: ;
+    font-family: 'Roboto', sans-serif;
+}
+
+.imagens{
+    width: 40%;
+    border: 2px solid #2155BF;
+    border-radius: 40%;    
+}
+
+.imagens:hover {
+    transform: scale(1.2);
+}
+
